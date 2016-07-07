@@ -4,4 +4,12 @@ blue: #7CCBF2
 gray: #525453
 white: #FFF
 black: #000;
+
+Headings: Josefin Sans
+Body: Playfair Display
 */
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+}
