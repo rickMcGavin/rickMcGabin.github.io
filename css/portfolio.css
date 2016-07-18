@@ -16,3 +16,28 @@ h1 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
 }
+
+html {
+  height: 100%;
+}
+
+body {
+  background-attachment: fixed;
+  background-image: url("../assets/logo3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  padding-top: 70px;
+}
+
+.nav {
+  font-family: "Playfair Display", sans-serif;
+}
+
+#main {
+  height: 100%;
+}
+
+#projects {
+  height: 100%;
+}
