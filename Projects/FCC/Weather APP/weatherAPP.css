@@ -1,0 +1,36 @@
+h1 {
+  font-family: 'PT Sans', sans-serif;
+  margin-bottom: 20px;
+}
+
+body {
+  background: #395668;
+  color: #F7F7F7;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+#icn {
+  background: ;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+#f-c {
+  color: #C2D995;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+#sig {
+  font-size: 10px;
+  margin-top: 20px;
+}
