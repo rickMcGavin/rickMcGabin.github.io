@@ -1,0 +1,78 @@
+h1 {
+  margin-bottom: 5%;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+img {
+  border: 1px solid black;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+
+}
+body {
+  background: #A7D8F6;
+  /*background: #3498DB;*/
+  font-family: 'Montserrat', sans-serif;
+  margin: 3% auto;
+}
+
+.container {
+  background: #FFF;
+}
+
+.nav {
+  margin-bottom: 2%;
+}
+
+.card-container {
+  padding-bottom: 2%;
+}
+
+.card {
+  border: 1px solid #ECF0F1;
+  border-radius: 25px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+  height: 100px;
+  margin: 1% auto;
+  text-align: center;
+}
+
+.row {
+  margin-top: 2%;
+}
+
+.thumbnail {
+  border:none;
+}
+
+.user {
+/*   border: 1px solid black;  */
+  margin-top: 1.5%;
+  text-align: center;
+}
+
+.hidden {
+  display: hidden;
+}
+
+.online {
+  background: #2ECC71;
+}
+
+.unknown {
+  background: #AAB7B7;
+}
+
+.offline {
+  background: #E74C3C;
+}
+
+.online-card-container {
+
+}
+
+.offline-card-container {
+
+}
