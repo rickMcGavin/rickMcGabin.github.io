@@ -12,7 +12,7 @@ Headings: Josefin Sans
 Body: Playfair Display
 */
 
-h1 {
+h1, h3 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
 }
@@ -40,4 +40,28 @@ body {
 
 #projects {
   height: 100%;
+  background: #F8F8F8;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+
+hr.style18 {
+  height: 30px;
+  background: #F8F8F8;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  margin-bottom: auto;
+}
+hr.style18:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
 }
