@@ -27,19 +27,17 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   height: 100%;
-  padding-top: 70px;
 }
 
 .nav {
   font-family: "Playfair Display", sans-serif;
 }
 
-#main {
+.main {
   height: 100%;
 }
 
-#projects {
-  height: 100%;
+.projects {
   background: #F8F8F8;
   margin-top: 0;
   padding-top: 0;
