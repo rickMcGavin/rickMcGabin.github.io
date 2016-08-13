@@ -1,0 +1,64 @@
+body {
+  background: #daad86;
+  color: white;
+}
+
+h1 {
+  font-family: Impact;
+  margin-top: 10%;
+  text-align: center;
+}
+
+div {
+  font-family: Georgia;
+}
+
+#myDiv {
+  font-size: 18px;
+  margin: 0 0 5% 0;
+}
+
+#container {
+  background: #98dafc;
+  border: 3px solid white;
+  border-radius: 25px;
+  margin: 45px auto;
+  padding: 45px 0 45px 0;
+  text-align: center;
+  width: 300px;
+}
+
+#palText {
+  border: 3px solid rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #98dafc;
+  font-family: Georgia;
+  font-size: 14px;
+  padding: 2px;
+}
+
+#palText:focus {
+  outline: none;
+}
+
+#palButton {
+  background: #98dafc;
+  border: 2px solid white;
+  color: white;
+  border-radius: 4px;
+  font-family: Georgia;
+  font-size: 14px;
+  margin: 10px;
+  outline: none;
+  padding: 4px 16px;
+  transition: 0.5s;
+}
+
+#palButton:hover {
+  background: white;
+  border: 2px solid white;
+  color: #98dafc;
+  outline: none;
+  transition: 0.5s;
+}
