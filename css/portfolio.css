@@ -38,7 +38,6 @@ body {
 }
 
 .projects {
-  background: #F8F8F8;
   margin-top: 0;
   padding-top: 0;
 }
@@ -46,7 +45,6 @@ body {
 
 hr.style18 {
   height: 30px;
-  background: #F8F8F8;
   border-style: solid;
   border-color: #8c8b8b;
   border-width: 1px 0 0 0;
@@ -62,4 +60,22 @@ hr.style18:before {
   border-color: #8c8b8b;
   border-width: 0 0 1px 0;
   border-radius: 20px;
+}
+
+
+.pic {
+  border-radius: 4px;
+  margin: 10% auto;
+  max-height: 300px;
+}
+
+.contact {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.fa {
+  color: #567687;
+  font-size: 40px;
+  margin: 2px;
 }
