@@ -13,7 +13,7 @@ function getTwitchData(name) {
      success:function(data) {
        if (data.stream === null) {
          buildOfflineCards(name);
-      } else if (data.status === 422) {
+      } else if (data.status === 422 || data.status === 404) {
         build422Cards(data.message);
       } else {
         if (data.stream !== null){
