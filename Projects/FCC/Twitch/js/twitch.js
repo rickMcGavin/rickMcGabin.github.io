@@ -1,6 +1,6 @@
 
 // Variables
-var twitchPlayers = ["freecodecamp","zrozilacx", "brunofin", "comster404", "sjow", "hutch", "MattachewOwns", "nl_kripp", "SandyRavage", "EatMyDiction1"];
+var twitchPlayers = ["freecodecamp","zrozilacx", "brunofin", "sjow", "hutch", "MattachewOwns", "nl_kripp", "SandyRavage", "EatMyDiction1"];
 var urlStream = "https://api.twitch.tv/kraken/streams/";
 var urlChannel = "https://api.twitch.tv/kraken/channels/";
 var name = "";
