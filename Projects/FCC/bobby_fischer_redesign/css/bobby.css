@@ -9,20 +9,6 @@
 .divider-color         { border-color: #BDBDBD; }
 */
 
-
-/*// BACKGROUND COLORS
-$dark-primary-color: #616161;
-$default-primary-color: #9E9E9E;
-$light-primary-color: #EDEDED;
-$accent-color: #607D8B;
-
-// TEXT COLORS
-$primary-text-color: #212121;
-$secondary-text-color: #757575;
-
-// BORDER COLOR
-$divider-color: #BDBDBD;
-
 // MAIN SETUP*/
 
 * {
@@ -110,10 +96,7 @@ header {
   background-position: top;
   background-size: cover;
   height: 100vh;
-
 }
-
-header::before{content: "";display: block;position: fixed;z-index: -1;height: 100%;width: 100%}
 
 .text-box {
   position: absolute;
@@ -160,5 +143,4 @@ footer {
   background-position: top;
   background-size: cover;
   height: 100vh;
-  background-attachment: fixed;
 }
