@@ -110,7 +110,7 @@ header {
   background-position: top;
   background-size: cover;
   height: 100vh;
-  background-attachment: fixed;
+
 }
 
 header::before{content: "";display: block;position: fixed;z-index: -1;height: 100%;width: 100%}
