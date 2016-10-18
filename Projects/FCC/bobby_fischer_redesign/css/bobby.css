@@ -94,18 +94,7 @@ img {
 }
 
 /* REUSABLE COMPONENTS*/
-.clearfix {zoom: 1}
-
-.clearfix:after {
-  content: '.';
-  clear: both;
-  display: block;
-  height: 0;
-  visibility: hidden;
-}
-
 .row {
-  /*border: solid black 1px;*/
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -120,7 +109,7 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(../assets/pawn-bobby.jpg);
   background-position: top;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   background-attachment: fixed;
 }
 
