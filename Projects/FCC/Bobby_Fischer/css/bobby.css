@@ -1,89 +1,149 @@
-* {
+/*
+
+.dark-primary-color    { background: #616161; }
+.default-primary-color { background: #9E9E9E; }
+.light-primary-color   { background: #F5F5F5; }
+.text-primary-color    { color: #212121; }
+.accent-color          { background: #607D8B; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+
+*/
+
+html,
+body
+{
+  background: #9E9E9E;
+  color: #212121;
+  font-family: "Pacifico", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 350%;
+  font-weight: lighter;
+  margin: 1% auto;
+}
+
+h2 {
+  font-size: 250%;
+  font-weight: lighter;
+  margin: 5px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 115%;
+  font-weight: lighter;
+  text-align: center;
+  width: 100%;
+}
+
+
+p {
+  color: #757575;
+  font-family: "Arimo", sans-serif;
+  line-height: 150%;
+  margin: 2% auto ;
+  padding: 0 3%;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  float: right;
+  font-size: 95%;
+  font-weight: lighter;
+  color: #607D8B;
+  margin-right: 25px;
+}
+
+
+hr {
+  background-image: linear-gradient(to right, rgba(0,0,0, 0), rgba(0,0,0, 0.75), rgba(0,0,0, 0));
+  border: 0;
+  height: 1px;
+  margin: 0 25%;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(../assets/pawn-bobby.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 100vh;
+}
+
+.text-box {
+  color: #757575;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+
+section {
+  padding: 80px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 25px 10px;
+}
+
+.container {
+  margin: 2%;
+}
+
+.image-resize {
+  height: 75% !important;
+  padding-top: 10% !important;
+}
+
+.image {
+  height: 300px;
+  width: 300px;
+  margin: 25px auto;
+}
+
+.image img {
+  border-radius: 5px;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.bullet-box {
+  color: #757575;
+  display: inline-block;
+  font-family: "Arimo", sans-serif;
+  font-size: 95%;
+}
+
+.bullet {
+  margin: 15px 0;
+}
+
+.bullet i::before{
+  color: #607D8B;
+  font-size: 90%;
   margin: 0;
 }
 
-html, body {
-  height: 100%;
+/*MATCHES SECTION*/
+.matches {
+  background: #f5f5f5;
 }
 
-body, {
-  font-family: 'Arimo', sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 20px;
-  font-family: 'Pacifico', cursive;
-}
-
-.navbar-brand {
-  font-family: 'Pacifico', cursive;
-}
-
-nav {
-  color: #EFEFEF;
-  background-color: #242424;
-  position: fixed;
-  height: 50px;
-  width: 100%;
-  z-index: 99;
-  font-family: 'Arimo', sans-serif;
-}
-
-.nav-link, .navbar-brand {
-  color: #EFEFEF;
-}
-
-
-.sect {
-  height: 100%;
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(../assets/bobby7.jpg);
+  background-position: top;
   background-size: cover;
-  background-repeat; no-repeat;
-  background-attachment: fixed;
-}
-
-.subSection {
-  height: 50%;
-  background-color: #9C9C9C;
-}
-
-img {
-  padding-left: 20%;
-  height: 60%;
-}
-
-.sectOne {
-  /*background-image: url("https://farm2.staticflickr.com/1594/25673435421_13a54e7c41_c.jpg");*/
-  /*background-image: url("https://farm2.staticflickr.com/1546/25798802446_684f062775_c.jpg");*/
-  background-image: url("https://farm2.staticflickr.com/1575/25703967562_6a94223de1_z.jpg");
-}
-
-.sectOne h1 {
-  font-family: 'Pacifico'; cursive;
-  font-size: 75px;
-  padding-top: 10%;
-  padding-left: 2%;
-  color: #242424;
-
-}
-
-.sectTwo {
-  background-image: url("https://farm2.staticflickr.com/1682/25243709273_9155c00dae_b.jpg");
-}
-
-.sectTwo h1 {
-  font-family: 'Pacifico', cursive;
-  font-size: 75px;
-  padding-top: 15%;
-  color: #242424;
-}
-
-.sectThree {
-  background-image: url("https://farm2.staticflickr.com/1685/25751659742_03f0d3601a_b.jpg");
-}
-
-.sectThree h1 {
-  font-family: 'Pacifico', cursive;
-  font-size: 60px;
-  padding-top: 25%;
-  color: #242424;
+  height: 100vh;
 }
