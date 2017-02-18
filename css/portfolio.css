@@ -161,8 +161,7 @@ a:hover {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  height: 50vh;
-  padding: 0; }
+  height: 50vh; }
 
 .mobile-nav li {
   list-style: none; }
