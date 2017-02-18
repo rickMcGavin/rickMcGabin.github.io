@@ -142,10 +142,10 @@ a:hover {
   color: #f7f7f7;
   cursor: pointer;
   font-size: 2em;
-  left: 15vh;
+  left: 20%;
   position: relative;
-  top: 1.5vh;
-  z-index: 1.5; }
+  top: 0;
+  z-index: 1; }
 
 .mobile-nav ul {
   padding: 0;
