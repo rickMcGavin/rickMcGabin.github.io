@@ -450,6 +450,7 @@ a:hover {color: $accent-color;}
 }
 
 .bio a {
+	text-decoration: none;
 	color: $accent-color;
 	border-bottom: 3px solid $accent-color;
 }

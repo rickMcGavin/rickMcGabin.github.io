@@ -372,6 +372,7 @@ a:hover {
   width: 50%; }
 
 .bio a, .skills a {
+  text-decoration: none;
   color: #edc018;
   border-bottom: 3px solid #edc018; }
 
