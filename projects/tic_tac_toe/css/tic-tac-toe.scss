@@ -1,0 +1,157 @@
+/*----------------------------*\
+  1. MAIN SETUP
+\*----------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$primary-color: #314359;
+$secondary-color1: #AF9F66;
+$secondary-color2: #AF8166;
+$border-color: #67788D;
+$primary-text-color: #1E324B;
+$hover-color: #475B73;
+
+
+body {
+  background: $primary-color;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: $primary-text-color;
+}
+
+.hide {
+  display: none;
+}
+
+button {
+  background: transparent;
+  border: 2px solid $primary-text-color;
+  border-radius: 1.4em;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: 0.25s;
+}
+
+button:hover {
+  border: 2px solid $hover-color;
+  padding: 12px 22px;
+
+}
+
+button:active {
+  outline: none;
+}
+
+
+
+
+/*----------------------------*\
+  2. PLAYER CHOICE MODAL
+\*----------------------------*/
+
+#onePlayer-twoPlayer,
+#choose-piece,
+#message {
+  background-color: rgba(200,200,200, 0.7);
+  display: none;
+  padding: 25% 0;
+  position: fixed;
+  text-align: center;
+  transition: 0.5s;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+/*----------------------------*\
+  3. BOARD
+\*----------------------------*/
+
+.game {
+  margin: 0 auto;
+  height: 450px;
+  width: 450px;
+  padding-top: 10%;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+}
+
+.square {
+  display: inline-block;
+  height: 33%;
+  width: 32%;
+  margin: 0;
+}
+
+  // bottom borders
+  .top-left,
+  .top-center,
+  .top-right,
+  .mid-left,
+  .mid-right    {
+    border-bottom: 2px solid $border-color;
+  }
+
+  // right borders
+  .top-left,
+  .top-center,
+  .mid-left,
+  .bottom-left,
+  .bottom-center {
+    border-right: 2px solid $border-color;
+  }
+
+  // left borders
+
+  .top-center,
+  .top-right,
+  .mid-right,
+  .bottom-center,
+  .bottom-right {
+    border-left: 2px solid $border-color;
+  }
+
+  // top borders
+
+  .mid-right,
+  .mid-left,
+  .bottom-left,
+  .bottom-center,
+  .bottom-right {
+    border-top: 2px solid $border-color;
+  }
+
+  .mid-center {
+    border: 2px solid $border-color;
+  }
+
+
+
+
+
+/*----------------------------*\
+  4. PIECES
+\*----------------------------*/
+
+.x,
+.o {
+  font-size: 4em;
+  line-height: 148px;
+  text-align: center;
+}
+
+.x, {
+  color: $secondary-color1;
+}
+
+.o {
+  color: $secondary-color2;
+}

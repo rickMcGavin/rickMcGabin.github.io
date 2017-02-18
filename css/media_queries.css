@@ -1,0 +1,42 @@
+@media only screen and (max-width: 767px) {
+
+	nav li {
+		display: none;
+	}
+	
+	.ion-navicon {
+		display: block;
+	}
+
+	.bio {
+		width: 100%;
+	}
+
+	.skills {width: 100%;}
+
+	.skills > .col {flex-direction: row;}
+
+	.contact > .col {
+		padding: 5%;
+	}
+
+	.social {
+		margin-bottom: 10%;
+		height: 20vh;
+		width: 100%;
+	}
+
+	.social > .col {
+		flex-direction: row;
+		padding: 2.5%;
+	}
+
+	.email {
+		height: 65  svh;
+		width: 100%;
+	}
+
+	form {
+		padding: 5%;
+	}
+}

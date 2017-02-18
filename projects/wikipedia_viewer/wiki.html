@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Wikipedia Viewer</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/wiki.css">
+</head>
+<body>
+	<div class="ui-container">
+		<div class="input-container">
+			<i class="fa fa-wikipedia-w" aria-hidden="true"></i>
+				<div class="search-field">
+					<input onblur="revertIconColor()" onfocus="changeIconColor()" type="text" placeholder="enter search here">
+					<div class="icon-container">
+						<i class="fa fa-search" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div> 
+		<div class="results-container"></div>
+	</div>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="js/wiki.js"></script>
+</body>
+</html>
