@@ -212,7 +212,6 @@ a:hover {
   background: #f7f7f7;
   color: #193549;
   min-height: 100vh;
-  overflow: auto;
   padding: 20px 10%; }
 
 .projects > h2 {
