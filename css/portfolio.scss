@@ -412,8 +412,10 @@ a:hover {color: $accent-color;}
 \*----------------------------*/
 
 .about {
-	@extend .projects;
 	background: $wesbos;
+	color: $text-color;
+	min-height: 100vh;
+  padding: 20px 10%;
 }
 
 .about > h2 {

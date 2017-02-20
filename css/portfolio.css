@@ -208,18 +208,18 @@ a:hover {
 /*----------------------------*\
 	4. PROJECTS
 \*----------------------------*/
-.projects, .about {
+.projects {
   background: #f7f7f7;
   color: #193549;
   min-height: 100vh;
   overflow: auto;
   padding: 20px 10%; }
 
-.projects > h2, .about > h2 {
+.projects > h2 {
   text-align: center;
   margin: 1% 0 3% 0; }
 
-.projects h3, .about h3 {
+.projects h3 {
   border: none; }
 
 .project-container {
@@ -339,7 +339,10 @@ a:hover {
 	4. ABOUT
 \*----------------------------*/
 .about {
-  background: #193549; }
+  background: #193549;
+  color: #f7f7f7;
+  min-height: 100vh;
+  padding: 20px 10%; }
 
 .about > h2 {
   text-align: center;
