@@ -60,6 +60,13 @@ const projectsObj = [
 		tools: 'HTML - SCSS - Vanilla JavaScript',
 		link: 'projects/simon/simon.html',
 		name: 'simon'
+	},
+	{
+		title: 'Markdown Previewer',
+		description: 'A markdown editor and viewer',
+		tools: 'HTML - SCSS - React',
+		link: 'projects/markdown_previewer/index.html',
+		name: 'markdown'
 	}
 ];
 

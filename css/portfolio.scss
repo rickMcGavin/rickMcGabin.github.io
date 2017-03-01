@@ -405,6 +405,13 @@ a:hover {color: $accent-color;}
 	background-size: cover;	
 }
 
+.markdown {
+	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url('../assets/markdown.png');
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url('../assets/markdown.png');
+	background-position: center;
+	background-size: cover;	
+}
+
 
 
 
