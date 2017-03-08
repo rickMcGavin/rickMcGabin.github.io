@@ -67,6 +67,13 @@ const projectsObj = [
 		tools: 'HTML - SCSS - React',
 		link: 'projects/markdown_previewer/index.html',
 		name: 'markdown'
+	},
+	{
+		title: 'freeCodeCamp Leaderboard',
+		description: 'Top 100 campers for past 30 days and all time',
+		tools: 'HTML - SCSS - React',
+		link: 'projects/camper_leaderboard/index.html',
+		name: 'leaderboard'
 	}
 ];
 
