@@ -29,49 +29,49 @@ const projectsObj = [
 	{
 		title: 'Wikipedia Viewer',
 		description: 'A search front end utilizing wiki search API',
-		tools: 'HTML - SCSS - Vanilla JavaScript',
+		tools: 'HTML - CSS - Vanilla JavaScript',
 		link: 'projects/wikipedia_viewer/wiki.html',
 		name: 'wiki'
 	},
 	{
 		title: 'JavaScipt Calculator',
 		description: 'A basic calculator',
-		tools: 'HTML - SCSS - Vanilla JavaScript',
+		tools: 'HTML - CSS - Vanilla JavaScript',
 		link: 'projects/javascript_calculator/calculator.html',
 		name: 'calc'
 	},
 	{
 		title: 'Pomodoro Timer',
 		description: 'A pomodoro, productivity timer',
-		tools: 'HTML - SCSS - Vanilla JavaScript',
+		tools: 'HTML - CSS - Vanilla JavaScript',
 		link: 'projects/pomodoro_clock/pomodoro.html',
 		name: 'pomo'
 	},
 	{
 		title: 'Tic-Tac-Toe',
 		description: 'A tic-tac-toe game for one or two players with a random AI',
-		tools: 'HTML - SCSS - jQuery',
+		tools: 'HTML - CSS - jQuery',
 		link: 'projects/tic_tac_toe/tic-tac-toe.html',
 		name: 'tictac'
 	},
 	{
 		title: 'Simon',
 		description: 'A browser based version of the 80s classic game: Simon',
-		tools: 'HTML - SCSS - Vanilla JavaScript',
+		tools: 'HTML - CSS - Vanilla JavaScript',
 		link: 'projects/simon/simon.html',
 		name: 'simon'
 	},
 	{
 		title: 'Markdown Previewer',
 		description: 'A markdown editor and viewer',
-		tools: 'HTML - SCSS - React',
+		tools: 'HTML - CSS/SCSS - React',
 		link: 'projects/markdown_previewer/index.html',
 		name: 'markdown'
 	},
 	{
 		title: 'freeCodeCamp Leaderboard',
 		description: 'Top 100 campers for past 30 days and all time',
-		tools: 'HTML - SCSS - React',
+		tools: 'HTML - CSS/SCSS - React',
 		link: 'projects/camper_leaderboard/index.html',
 		name: 'leaderboard'
 	}
