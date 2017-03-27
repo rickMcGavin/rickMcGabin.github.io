@@ -74,6 +74,13 @@ const projectsObj = [
 		tools: 'HTML - CSS/SCSS - React',
 		link: 'projects/camper_leaderboard/index.html',
 		name: 'leaderboard'
+	},
+	{
+		title: 'Catch of the Day App',
+		description: 'Course Project: A fish market store front in React',
+		tools: 'HTML - React - React Router - Firebase',
+		link: 'https://ns-rjtdfhogof.now.sh/',
+		name: 'catch'
 	}
 ];
 

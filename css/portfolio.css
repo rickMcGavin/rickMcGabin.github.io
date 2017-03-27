@@ -348,6 +348,12 @@ a:hover {
   background-position: center;
   background-size: cover; }
 
+.catch {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../assets/catch.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../assets/catch.png");
+  background-position: center;
+  background-size: cover; }
+
 /*----------------------------*\
 	4. ABOUT
 \*----------------------------*/
