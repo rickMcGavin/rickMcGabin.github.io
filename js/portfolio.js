@@ -24,6 +24,7 @@ const projectsObj = [
 		description: 'A random quote machine for the TV Show Silicon Valley',
 		tools: 'HTML - CSS - Vanilla JavaScript',
 		link: 'projects/random_quote/random.html',
+		repo: 'https://github.com/rickMcGavin/rickMcGavin.github.io/tree/master/projects/random_quote',
 		name: 'quote'
 	},
 	{
@@ -31,6 +32,7 @@ const projectsObj = [
 		description: 'A search front end utilizing wiki search API',
 		tools: 'HTML - CSS - Vanilla JavaScript',
 		link: 'projects/wikipedia_viewer/wiki.html',
+		repo: 'https://github.com/rickMcGavin/wikipedia_viewer',
 		name: 'wiki'
 	},
 	{
@@ -38,6 +40,7 @@ const projectsObj = [
 		description: 'A basic calculator',
 		tools: 'HTML - CSS - Vanilla JavaScript',
 		link: 'projects/javascript_calculator/calculator.html',
+		repo: 'https://github.com/rickMcGavin/JavaScript-Calculator',
 		name: 'calc'
 	},
 	{
@@ -45,6 +48,7 @@ const projectsObj = [
 		description: 'A pomodoro, productivity timer',
 		tools: 'HTML - CSS - Vanilla JavaScript',
 		link: 'projects/pomodoro_clock/pomodoro.html',
+		repo: 'https://github.com/rickMcGavin/Pomodoro-Clock',
 		name: 'pomo'
 	},
 	{
@@ -52,6 +56,7 @@ const projectsObj = [
 		description: 'A tic-tac-toe game for one or two players with a random AI',
 		tools: 'HTML - CSS - jQuery',
 		link: 'projects/tic_tac_toe/tic-tac-toe.html',
+		repo: 'https://github.com/rickMcGavin/tic-tac-toe',
 		name: 'tictac'
 	},
 	{
@@ -59,6 +64,7 @@ const projectsObj = [
 		description: 'A browser based version of the 80s classic game: Simon',
 		tools: 'HTML - CSS - Vanilla JavaScript',
 		link: 'projects/simon/simon.html',
+		repo: 'https://github.com/rickMcGavin/simon',
 		name: 'simon'
 	},
 	{
@@ -66,6 +72,7 @@ const projectsObj = [
 		description: 'A markdown editor and viewer',
 		tools: 'HTML - CSS/SCSS - React',
 		link: 'projects/markdown_previewer/index.html',
+		repo: 'https://github.com/rickMcGavin/markdown_previewer',
 		name: 'markdown'
 	},
 	{
@@ -73,13 +80,15 @@ const projectsObj = [
 		description: 'Top 100 campers for past 30 days and all time',
 		tools: 'HTML - CSS/SCSS - React',
 		link: 'projects/camper_leaderboard/index.html',
+		repo: 'https://github.com/rickMcGavin/camper_leaderboard',
 		name: 'leaderboard'
 	},
 	{
 		title: 'Catch of the Day App',
 		description: 'Course Project: A fish market store front in React',
-		tools: 'HTML - React - React Router - Firebase',
+		tools: 'HTML - CSS - React - React Router - Firebase',
 		link: 'https://ns-rjtdfhogof.now.sh/',
+		repo: 'https://github.com/rickMcGavin/catch-of-the-day',
 		name: 'catch'
 	}
 ];
@@ -100,6 +109,7 @@ function buildCards() {
 		</div>
 		<div class="card-link">
 			<a href="${projectsObj[i].link}" target="_blank">View Project</a>
+			<a href="${projectsObj[i].repo}" target="_blank">View Github Repo</a>
 		</div>
 	</div>
 	`
