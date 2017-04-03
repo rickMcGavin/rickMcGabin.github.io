@@ -69,7 +69,7 @@ const projectsObj = [
 	},
 	{
 		title: 'Markdown Previewer',
-		description: 'A markdown editor and viewer',
+		description: 'A markdown editor and viewer for FCC challenge',
 		tools: 'HTML - CSS/SCSS - React',
 		link: 'projects/markdown_previewer/index.html',
 		repo: 'https://github.com/rickMcGavin/markdown_previewer',
@@ -90,6 +90,14 @@ const projectsObj = [
 		link: 'https://ns-rjtdfhogof.now.sh/',
 		repo: 'https://github.com/rickMcGavin/catch-of-the-day',
 		name: 'catch'
+	},
+	{
+		title: 'Travel Site',
+		description: 'Course Project: create a travel site landing page',
+		tools: 'HTML - PostCSS - jQuery - Gulp',
+		link: 'https://rickmcgavin.github.io/travel-site',
+		repo: 'https://github.com/rickMcGavin/travel-site',
+		name: 'travel'
 	}
 ];
 
