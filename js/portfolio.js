@@ -91,6 +91,14 @@ const projectsObj = [
 		link: 'https://rickmcgavin.github.io/travel-site',
 		repo: 'https://github.com/rickMcGavin/travel-site',
 		name: 'travel'
+	},
+	{
+		title: 'Nike Landing Page',
+		description: 'Test project: create a Nike Marketing landing page',
+		tools: 'React - Aphrodite',
+		link: 'https://rickmcgavin.github.io/nike-test',
+		repo: 'https://github.com/rickMcGavin/nike-test',
+		name: 'nike'
 	}
 ];
 
