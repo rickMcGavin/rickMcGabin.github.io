@@ -20,14 +20,14 @@ const projectsObj = [
 		repo: 'https://github.com/rickMcGavin/rickMcGavin.github.io/tree/master/projects/random_quote',
 		name: 'quote'
 	},
-	{
-		title: 'Wikipedia Viewer',
-		description: 'A search front end utilizing wiki search API',
-		tools: 'HTML - CSS - Vanilla JavaScript',
-		link: 'projects/wikipedia_viewer/wiki.html',
-		repo: 'https://github.com/rickMcGavin/wikipedia_viewer',
-		name: 'wiki'
-	},
+	// {
+	// 	title: 'Wikipedia Viewer',
+	// 	description: 'A search front end utilizing wiki search API',
+	// 	tools: 'HTML - CSS - Vanilla JavaScript',
+	// 	link: 'projects/wikipedia_viewer/wiki.html',
+	// 	repo: 'https://github.com/rickMcGavin/wikipedia_viewer',
+	// 	name: 'wiki'
+	// },
 	{
 		title: 'JavaScipt Calculator',
 		description: 'A basic calculator',
@@ -36,22 +36,22 @@ const projectsObj = [
 		repo: 'https://github.com/rickMcGavin/JavaScript-Calculator',
 		name: 'calc'
 	},
-	{
-		title: 'Pomodoro Timer',
-		description: 'A pomodoro, productivity timer',
-		tools: 'HTML - CSS - Vanilla JavaScript',
-		link: 'projects/pomodoro_clock/pomodoro.html',
-		repo: 'https://github.com/rickMcGavin/Pomodoro-Clock',
-		name: 'pomo'
-	},
-	{
-		title: 'Tic-Tac-Toe',
-		description: 'A tic-tac-toe game for one or two players with a random AI',
-		tools: 'HTML - CSS - jQuery',
-		link: 'projects/tic_tac_toe/tic-tac-toe.html',
-		repo: 'https://github.com/rickMcGavin/tic-tac-toe',
-		name: 'tictac'
-	},
+	// {
+	// 	title: 'Pomodoro Timer',
+	// 	description: 'A pomodoro, productivity timer',
+	// 	tools: 'HTML - CSS - Vanilla JavaScript',
+	// 	link: 'projects/pomodoro_clock/pomodoro.html',
+	// 	repo: 'https://github.com/rickMcGavin/Pomodoro-Clock',
+	// 	name: 'pomo'
+	// },
+	// {
+	// 	title: 'Tic-Tac-Toe',
+	// 	description: 'A tic-tac-toe game for one or two players with a random AI',
+	// 	tools: 'HTML - CSS - jQuery',
+	// 	link: 'projects/tic_tac_toe/tic-tac-toe.html',
+	// 	repo: 'https://github.com/rickMcGavin/tic-tac-toe',
+	// 	name: 'tictac'
+	// },
 	{
 		title: 'Simon',
 		description: 'A browser based version of the 80s classic game: Simon',
@@ -68,22 +68,22 @@ const projectsObj = [
 		repo: 'https://github.com/rickMcGavin/markdown_previewer',
 		name: 'markdown'
 	},
-	{
-		title: 'freeCodeCamp Leaderboard',
-		description: 'Top 100 campers for past 30 days and all time',
-		tools: 'HTML - CSS/SCSS - React',
-		link: 'projects/camper_leaderboard/index.html',
-		repo: 'https://github.com/rickMcGavin/camper_leaderboard',
-		name: 'leaderboard'
-	},
-	{
-		title: 'Catch of the Day App',
-		description: 'Course Project: A fish market store front in React',
-		tools: 'HTML - CSS - React - React Router - Firebase',
-		link: 'https://ns-rjtdfhogof.now.sh/',
-		repo: 'https://github.com/rickMcGavin/catch-of-the-day',
-		name: 'catch'
-	},
+	// {
+	// 	title: 'freeCodeCamp Leaderboard',
+	// 	description: 'Top 100 campers for past 30 days and all time',
+	// 	tools: 'HTML - CSS/SCSS - React',
+	// 	link: 'projects/camper_leaderboard/index.html',
+	// 	repo: 'https://github.com/rickMcGavin/camper_leaderboard',
+	// 	name: 'leaderboard'
+	// },
+	// {
+	// 	title: 'Catch of the Day App',
+	// 	description: 'Course Project: A fish market store front in React',
+	// 	tools: 'HTML - CSS - React - React Router - Firebase',
+	// 	link: 'https://ns-rjtdfhogof.now.sh/',
+	// 	repo: 'https://github.com/rickMcGavin/catch-of-the-day',
+	// 	name: 'catch'
+	// },
 	{
 		title: 'Travel Site',
 		description: 'Course Project: create a travel site landing page',
